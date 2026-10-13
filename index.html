@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>RongYi Live H5</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <script>
+      var pageMode = ''
+      var partner_id = ''
+      var apiHost = ''
+      var access_token = 'QGZkdjNhdDMmJGZ2QWM5MGMxATOzM2MjJmZzYmN2EjZ8xHf9JSN4MTN1UTMiojIl1WYuJnIsEjOiEmIsYDN4MDN0kDO3EjOiUWbpR3ZlJnIsISNxgDN4kjM5MTMiojIklGeiwSN3ADN3ojIklGciwSfxojI3VmbiwiI0EmY4UHX4QWZ5UHXiojIl1WYudWY0NmIskDO3IzMyojIkl2ZhR3YisnOiIHd0FmIsAjOiQWanJCLiIiOiIXY0FmdhJCLwojIyVGZuV2ZiwiN0IDMzUTO4cTM6ISZylGc4VmIsUDOzUTN1EjOiQWat92byJCLi82ayFWTiojIl1WYut2Yp5mIsIiclNXdiojIlx2byJCLiITO5kTMiojIklWdiwSN3ADN3ojIkl2XyVmb0JXYwJye'
+      var isVod = 0
+      var versions = { v1: 'v2.1.2_1', v2: 'v2.1.2_1', v3: 'v2.1.2_1', public: 'v2.1.2_1' }
+      var buildVersion = 'v3'
+      var liveSDKUrl = '//static-1.talk-fun.com/open/maituo_v2/dist/live/mobile/h5/sdk-mobile.8.8.min.js?v=b58ce'
+      var vodSDKUrl = '//static-1.talk-fun.com/open/maituo_v2/dist/vod/sdk-vod.5.6.min.js'
+      var emojiV2 = {
+        '[aha]': '//static-ry.zhibodun.com/page/assets/emotions/default/001.gif',
+        '[hard]': '//static-ry.zhibodun.com/page/assets/emotions/default/002.gif',
+        '[good]': '//static-ry.zhibodun.com/page/assets/emotions/default/003.gif',
+        '[flower]': '//static-ry.zhibodun.com/page/assets/emotions/v3/flower.png',
+        '[cool]': '//static-ry.zhibodun.com/page/assets/emotions/default/006.gif',
+        '[why]': '//static-ry.zhibodun.com/page/assets/emotions/default/007.gif'
+      }
+      if (window.document.location.href.indexOf('vconsole') > -1) {
+        let script = document.createElement('script')
+        script.src = 'https://cdn.bootcss.com/vConsole/3.2.2/vconsole.min.js'
+        script.addEventListener('load', function () {
+          new window.VConsole({ maxLogNumber: 10 })
+        })
+        document.head.appendChild(script)
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DjCsR3Ju.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D27dDB7k.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
